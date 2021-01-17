@@ -181,3 +181,126 @@ a {
   font-family: Silent Landfield;
   font-size: 1.5em;
 }
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #b5b5b5;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1 {
+    color: #272727;
+  }
+  .title {
+    font-family: Silent Landfield;
+    font-weight: 100;
+    font-size: 1em;
+  }
+  img {
+    border-radius: 100%;
+    width: 10em;
+  }
+  .info-container {
+    display: flex;
+    align-items: center;
+  }
+  .info {
+    flex-direction: column;
+    margin-right: 7vw;
+    margin-left: 7vw;
+  }
+  .nav-ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-ul > li {
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+    list-style: none;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a {
+    color: #272727;
+  }
+  .nav-container {
+    width: 100%;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .presentation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .presentation > h1 {
+    font-family: Silent Landfield;
+    font-size: 3em;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: goldenrod;
+    margin-bottom: 20px;
+    width: 20em;
+  }
+  .title-skils {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fas {
+    font-size: 1.5em;
+  }
+  .title-skils > h1 {
+    font-size: 1em;
+  }
+  .list-skils {
+    list-style: none;
+  }
+  .list-skils > li {
+    font-family: Silent Landfield;
+    font-size: 2em;
+  }
+  .conatct-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 40%;
+  }
+  .conatct-container > h1 {
+    padding-left: 1.3em;
+    font-family: Silent Landfield;
+    font-size: 2em;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-around;
+  }
+  .far,
+  .fab {
+    text-decoration: none;
+    font-size: 2em;
+  }
+  .work > h1 {
+    font-family: Silent Landfield;
+    font-size: 3em;
+  }
+  .work > p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1em;
+  }
+  .footer {
+    font-family: Silent Landfield;
+    font-size: 0.5em;
+  }
+}
