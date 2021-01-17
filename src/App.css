@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@font-face {
+  font-family: Silent Landfield;
+  src: url(SilentLandfield.ttf);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 
+body:before {
+  animation: grain 6s steps(10) infinite;
+  background-image: url("noise.png");
+  background-size: 180px 180px;
+  background-repeat: repeat;
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: 0.2;
+  position: fixed;
+  top: -100%;
+  width: 300%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes grain {
+  0%,
+  100% {
+    transform: translate(0, 0);
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  10% {
+    transform: translate(-5%, -10%);
+  }
+
+  20% {
+    transform: translate(-15%, 5%);
+  }
+
+  30% {
+    transform: translate(7%, -25%);
+  }
+
+  40% {
+    transform: translate(-5%, 25%);
+  }
+
+  50% {
+    transform: translate(-15%, 10%);
+  }
+
+  60% {
+    transform: translate(15%, 0);
+  }
+
+  70% {
+    transform: translate(0, 15%);
+  }
+
+  80% {
+    transform: translate(3%, 35%);
+  }
+
+  90% {
+    transform: translate(-10%, 10%);
+  }
+} */
+body {
+  background-color: #b5b5b5;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: #272727;
+}
+.title {
+  font-family: Silent Landfield;
+  font-weight: 100;
+  font-size: 5em;
+}
+img {
+  border-radius: 100%;
+  width: 35em;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+}
+.info {
+  flex-direction: column;
+  margin-right: 7vw;
+  margin-left: 7vw;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-ul > li {
+  font-family: "Caveat", cursive;
+  font-size: 2em;
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  color: #272727;
+}
+.nav-container {
+  width: 100%;
+}
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.presentation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.presentation > h1 {
+  font-family: Silent Landfield;
+  font-size: 4em;
+}
+.presentation > h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2em;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: goldenrod;
+  margin-bottom: 20px;
+  width: 40em;
+}
+.title-skils {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.fas {
+  font-size: 3em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-skils {
+  list-style: none;
+}
+.list-skils > li {
+  font-family: Silent Landfield;
+  font-size: 4em;
+}
+.conatct-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 40%;
+}
+.conatct-container > h1 {
+  padding-left: 4.9em;
+  font-family: Silent Landfield;
+  font-size: 4em;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+.far,
+.fab {
+  text-decoration: none;
+  font-size: 5em;
+}
+.work > h1 {
+  font-family: Silent Landfield;
+  font-size: 4em;
+}
+.work > p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2em;
+}
+.footer {
+  font-family: Silent Landfield;
+  font-size: 1.5em;
 }
