@@ -36,7 +36,7 @@ function App() {
         </div>
         <div className="skills">
           <div className="title-skils">
-            <i className="fas fa-server"></i>
+            <i className="fas fa-desktop"></i>
             <h1>Front-Side</h1>
           </div>
           <div>
@@ -51,7 +51,7 @@ function App() {
         </div>
         <div className="skills">
           <div className="title-skils">
-            <i className="fas fa-desktop"></i>
+            <i className="fas fa-server"></i>
             <h1>Back-Side</h1>
           </div>
           <div>
